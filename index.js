@@ -2,13 +2,13 @@
     var alterarCor = function (idDiv, cor ){
         var div = document.getElementById(idDiv)
         div.style.backgroundColor = cor;
-
     }
 
-window.onload = function animarFunction() {
+
+
+    window.onload = function animarFunction() {
 
     console.log("fooi")
-
 
     fetch('data.json')
     .then(response => response.json())
@@ -23,16 +23,26 @@ window.onload = function animarFunction() {
             div.id = passo.key;
             div.className = 'card';
             div.style.borderColor = passo.value;
-            
-           // div.style.backgroundColor = 'white';
-            
+
             document.body.appendChild(div);
+
+            var div2 = document.createElement('div');
+            div2.id = passo.key;
+            div2.className = 'circulo';
+            div2.style.borderColor = passo.value;
+            div2.style.backgroundColor = passo.value;
+
+            document.body.appendChild(div2);
 
             setInterval(function() { alterarCor(passo.key, passo.value)}, duracao)
 
-            }
+            
         
-    })
+            }
+
+
+
+})
    
 }
 
