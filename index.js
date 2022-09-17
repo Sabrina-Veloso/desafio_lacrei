@@ -1,19 +1,13 @@
-
     var alterarCor = function (idDiv, cor ){
         var div = document.getElementById(idDiv)
         div.style.backgroundColor = cor;
     }
 
-
-
     window.onload = function animarFunction() {
-
-    console.log("fooi")
 
     fetch('data.json')
     .then(response => response.json())
     .then(jsonResponse => {
-        console.log(jsonResponse)
         for(i in jsonResponse.steps){
             console.log(jsonResponse.steps [i])
             const passo = jsonResponse.steps [i];
@@ -36,14 +30,8 @@
 
             setInterval(function() { alterarCor(passo.key, passo.value)}, duracao)
 
-            
-        
             }
-
-
 
 })
    
 }
-
-console.log("fooi")
