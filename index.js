@@ -1,0 +1,39 @@
+
+    var alterarCor = function (idDiv, cor ){
+        var div = document.getElementById(idDiv)
+        div.style.backgroundColor = cor;
+
+    }
+
+window.onload = function animarFunction() {
+
+    console.log("fooi")
+
+
+    fetch('data.json')
+    .then(response => response.json())
+    .then(jsonResponse => {
+        console.log(jsonResponse)
+        for(i in jsonResponse.steps){
+            console.log(jsonResponse.steps [i])
+            const passo = jsonResponse.steps [i];
+            const duracao = jsonResponse.durations [passo.key];
+
+            var div = document.createElement('div');
+            div.id = passo.key;
+            div.className = 'card';
+            div.style.borderColor = passo.value;
+            
+           // div.style.backgroundColor = 'white';
+            
+            document.body.appendChild(div);
+
+            setInterval(function() { alterarCor(passo.key, passo.value)}, duracao)
+
+            }
+        
+    })
+   
+}
+
+console.log("fooi")

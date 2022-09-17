@@ -7,13 +7,12 @@ h1{
     text-align: center;
 }
 
-    #pink{
+    .card{
         width: 750px;
         height: 50px;
         border-radius: 10px;
-        border: 5px;
-        border-color: pink;
-        background: pink;
+        border-style: solid;
+        background: white;
         margin-top: 10px;
         margin-left: auto;
         margin-right: auto;
