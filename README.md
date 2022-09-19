@@ -2,19 +2,18 @@
 
 ![image](https://user-images.githubusercontent.com/82838288/191115250-7e95536c-f288-4e7a-87aa-3a2c760ee630.png)
 
+## Sobre o projeto
+>Status: Rodando
+<p>Essa aplicação web foi feita usando html,css, javaScript E Json. Com o intuito de dar o meu melhor no desafio proposto pelo ONG Lacrei</p>
 
->Status: Finalizado
 
-## Essa aplicação web foi feita usando html,css, javaScript E Json. Com o intuito de dar o meu melhor no desafio proposto pelo ONG Lacrei
+## Aprendizados
 
->Alguns Campos usado nessa aplicação web
+<p>Comandos do JavaSCript que conheci e me desfiei a implementar fazendo essa aplicação</p>
 
-+ id
-+ class
-
-> Comandos do JavaSCript que conheci e me desfiei a implementar fazendo essa aplicação
 + window.onload (Que faz o evento acontecer assim que a tela é carregada)
 + fetch ( Usado para recuperar dados Json)
 
->Comandos do CSS que conheci e me desfiei a implementar fazendo essa aplicação
+<p>Comandos do CSS que conheci e me desfiei a implementar fazendo essa aplicação</p>
+
 + @keyframes animate (Usado para fazer animações no CSS)
