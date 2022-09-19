@@ -6,6 +6,9 @@
 >Status: Rodando
 <p>Essa aplicação web foi feita usando html,css, javaScript E Json. Com o intuito de dar o meu melhor no desafio proposto pelo ONG Lacrei</p>
 
+## Projeto
+https://sabrina-veloso.github.io/desafio_lacrei/
+
 ## Como executar
  Basta precionar o F5 ou se preferir pode clicar no botão igual o da imagem a seguir que se localiza no campo superior esquerdo.
  ![image](https://user-images.githubusercontent.com/82838288/191125333-6a0a4ecb-6e71-4a78-83e9-7bb45eb6757e.png)
