@@ -9,7 +9,6 @@
     .then(response => response.json())
     .then(jsonResponse => {
         for(i in jsonResponse.steps){
-            console.log(jsonResponse.steps [i])
             const passo = jsonResponse.steps [i];
             const duracao = jsonResponse.durations [passo.key];
 
